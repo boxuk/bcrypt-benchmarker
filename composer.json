@@ -1,16 +1,21 @@
 {
     "name": "boxuk/bcrypt-benchmarker",
     "description": "Benchmarks how fast a server can generate bcrypt hashes",
+    "authors": [
+        {
+            "name": "bendavies",
+            "email": "ben.davies@boxuk.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/stopwatch": "~2.2",
         "symfony/console": "~2.2",
         "symfony/security": "~2.2"
     },
-    "authors": [
-        {
-            "name": "bendavies",
-            "email": "ben.davies@boxuk.com"
+    "autoload": {
+        "psr-0": {
+            "BoxUK": "src/"
         }
-    ]
+    }
 }
