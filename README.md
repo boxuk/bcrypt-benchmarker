@@ -1,6 +1,8 @@
 PHP Bcrypt Benchmarker
 ==========================
 
+# This repository is unmaintained
+
 A tool that benchmarks how fast a server can generate bcrypt hashes.
 
 Installation
